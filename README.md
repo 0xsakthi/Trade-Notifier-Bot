@@ -8,10 +8,10 @@ iam create this bot via python3 , its help full to make perfect trade,iam used w
 ### create heroku account 
 
 then,
-**1) sudo apt install heroku** \n
-**2) sudo apt install git**
-**3) git add .**
-**4) git commit -am "deploy"**
-**5) git push heroku master**
+**1) sudo apt install heroku** <br>
+**2) sudo apt install git**<br>
+**3) git add .**<br>
+**4) git commit -am "deploy"**<br>
+**5) git push heroku master**<br>
 
 
