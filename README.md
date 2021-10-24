@@ -4,7 +4,7 @@ iam create this bot via python3 , its help full to make perfect trade,iam used w
 *it will notify perfect price to buy in every 2hrs in telegram*
 # Deploying Steps
 
-*make changes whatever you like and add your api key and chat id*
+*make changes whatever you want and add your api key and chat id*
 
 ### create heroku account 
 
