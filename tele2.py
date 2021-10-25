@@ -3,7 +3,7 @@ import requests
 import json
 import time
 
-bot = telebot.TeleBot("2066017477:AAFSOhyH3k7EUpxXcakrleeqbD_qMVENj4Y")
+bot = telebot.TeleBot("<your-api-key>")
 @bot.message_handler(commands=['wrxinr', 'shibinr'])
 def send_welcome(message):
 	global origwrx
