@@ -22,7 +22,12 @@ def send_welcome(message):
 			bot.reply_to(message, "something wrong")
 	if b[0] == '/shibinr':
 		try:
-			origshib = float(b[1])
+			temporigshib = float(b[1])
+			m = json.load(open('data.json'))
+			m["origshib"] = temporigshib 
+			a_file = open("data.json", "w")
+			json.dump(m, a_file)
+			a_file.close()
 			bot.reply_to(message, f"Successfully Updated Price new price {origshib}")
 		except:
 			bot.reply_to(message, "something wrong")
