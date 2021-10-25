@@ -17,7 +17,7 @@ wrxinrbuy = float(data1['wrxinr']['buy'])
 shibinrbuy = float(data1['shibinr']['buy'])	
 
 print(shibinrbuy)
-bot = telebot.TeleBot("2066017477:AAFSOhyH3k7EUpxXcakrleeqbD_qMVENj4Y",parse_mode='MARKDOWN')
+bot = telebot.TeleBot("<your-api-key>",parse_mode='MARKDOWN')
 def profit(buyprice,currentbuy):
 	calc = (currentbuy - buyprice)
 	calc = calc/buyprice * 100
@@ -62,6 +62,6 @@ print(final)
 final = final.replace('None', '')
 #price = f'WRX={s}'
 try:
-	bot.send_message("1031221294","{}".format(final))
+	bot.send_message("<your-chat-id>","{}".format(final))
 except:
 	print('dull market')
